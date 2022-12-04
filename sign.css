@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+.new-main-new-main {
+    width: 100%;
+    height: 990px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-image: linear-gradient(180deg, rgba(86, 42, 211, 1) 0%, rgba(44, 91, 162, 1) 100%);
+}
+
+.new-main-navbar {
+    top: 23px;
+    left: 202px;
+    width: 1263px;
+    height: 95px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+.new-main-text {
+    left: 371px;
+    color: rgba(255, 255, 255, 1);
+    width: 205px;
+    height: auto;
+    position: absolute;
+    margin-left: 40px;
+    font-size: 26px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Bellefair;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+
+}
+
+.new-main-l-o-g-i-n {
+    top: 11px;
+    left: 908px;
+    width: 145px;
+    height: 73px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(217, 217, 217, 0);
+}
+
+.new-main-text02 {
+    top: -11px;
+    left: -8px;
+    color: rgba(255, 255, 255, 1);
+    width: 145px;
+    margin-left: 40px;
+    margin-top: 5px;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Bellefair;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.new-main-g-e-t-s-t-a-r-t-e-d {
+    top: 11px;
+    left: 1096px;
+    width: 167px;
+    height: 73px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    border-radius: 0px 0px 0px 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(217, 217, 217, 0);
+}
+
+.new-main-text04 {
+    top: -11px;
+    left: -8px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 167px;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Bellefair;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.new-main-text06 {
+    left: 487px;
+    color: rgba(255, 255, 255, 1);
+    width: 200px;
+    margin-left: 100px;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Bellefair;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.new-main-text08 {
+    left: 647px;
+    color: rgba(255, 255, 255, 1);
+    width: 200px;
+    margin-left: 100px;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Bellefair;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.new-main-text10 {
+    color: rgba(255, 255, 255, 1);
+    width: 286px;
+    height: auto;
+    position: absolute;
+    font-size: 34px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Bellefair;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+#wrapper {
+    width: 60%;
+    margin-left: 4%;
+}
+
+div#formcol1 {
+    float: left;
+    width: 100%;
+}
+
+label {
+    margin-right: .3em;
+    width: 5.5em;
+    /* I made this deliberately wide – come up with your own 
+	optimal width */
+    display: inline-block;
+    /* width will not work for “inline” elements such as 
+	“label”. Therefore we need to set it to “inline-block” */
+}
+
+#formcol1 li {
+    list-style: none;
+}
+
+span {
+    margin-right: -2em;
+}
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus+label,
+input:active+label,
+label[for]:focus,
+label[for]:active {
+    color: #FFF !important;
+    background-color: blue !important;
+}
+
+#formcol1 input.reqfield {
+    background: #FF9;
+}
+
+h1 {
+    top: 200px;
+    right: 880px;
+    align-items: center;
+    position: fixed;
+    color: #FFF;
+    font-size: 46px;
+}
+
+fieldset {
+    top: 300px;
+    right: 770px;
+    align-items: center;
+    position: fixed;
+    color: #FFF;
+}
+
+.buttons {
+    margin-top: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.new-main-getstarted1 {
+    top: 893px;
+    left: 233px;
+    width: 255px;
+    height: 75px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(217, 217, 217, 0);
+}
+
+.new-main-text12 {
+    left: -2.2737367544323206e-13px;
+    width: 255px;
+    height: auto;
+    position: absolute;
+    font-size: 34px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Bellefair;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+    border: 3px solid rgba(237, 166, 30, 1);
+    background-color: transparent;
+    border-color: rgba(237, 166, 30, 1);
+    color: rgba(237, 166, 30, 1);
+    top: -300px;
+    left: 470px;
+}
+
+/* end of form css */
